@@ -1,30 +1,15 @@
-/* Element Selector: select entire elements without any special characters. 
-   Ranks bottom of the specificity scale 
-body {
-    background-color: white;
-}
-
-   Class selector: select tags with a certain class attribute name.
-   Used on any and all elements with that class 
-.aclass {
-    color: blue;
-}
-
-   ID selector: select tags with a certain ID attribute name. 
-   Used on one element at a time 
-#sometext {
-    color: orange;
-}
-*/
-
-.title {
+h2 {
     color: red;
 }
 
-.subtitle{
+.subtitle {
     color: blue;
 }
 
-#contact-us {
+#services {
     color: green;
 }
+
+/* Order of selector specifity from low to high: element->class->id->inline */
+/* class selectors can be used in multiple tags, whereas id selectors are for 
+   one time use*/
