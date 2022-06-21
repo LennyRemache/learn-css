@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
     color: red;
 }
 
@@ -12,4 +12,39 @@ h2 {
 
 /* Order of selector specifity from low to high: element->class->id->inline */
 /* class selectors can be used in multiple tags, whereas id selectors are for 
-   one time use*/
+   one time use */
+
+/* style the first <li> child in a list */ 
+li:first-child {
+    color: steelblue;
+}
+
+/* style the last <li> child in a list */ 
+li:last-child {
+    color: palegoldenrod;
+}
+
+/* style the 2nd <li> child in a list */ 
+li:nth-child(2) {
+    color: palegreen;
+}
+
+/* style the <li> child that is the only child in a list */ 
+li:only-child {
+    color: purple;
+}
+
+/* Won't style if it does not exist */
+td:only-child {
+    color: purple;
+}
+
+/* before clicking link */
+#google-link:link {
+    color: blue
+}
+
+/* after clicking link */
+#google-link:visited {
+    color: red;
+}
