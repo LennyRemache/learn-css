@@ -1,3 +1,17 @@
+/* Element Selector: select entire elements without any special characters. 
+   Ranks bottom of the specificity scale */
 body {
     background-color: red;
+}
+
+/* Class selector: select tags with a certain class attribute name.
+   Used on any and all elements with that class */
+.aclass {
+    color: blue;
+}
+
+/* ID selector: select tags with a certain ID attribute name. 
+   Used on one element at a time */
+#sometext {
+    color: orange;
 }
