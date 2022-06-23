@@ -1,5 +1,6 @@
 body {
-    background: rgb(204, 229, 255)
+    /* a is for alpha, 0-1 */
+    background: rgba(204, 229, 255, 0.7)
 }
 
 #title {
