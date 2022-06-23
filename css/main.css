@@ -1,5 +1,5 @@
 body {
-    background: url(https://freedesignfile.com/upload/2021/02/Gradient-blue-geometric-abstract-background-vector.jpg);
+    background: rgb(204, 229, 255)
 }
 
 #title {
@@ -11,3 +11,14 @@ body {
     background: whitesmoke;
 }
 
+#service-image {
+    height: 400px;
+    width: 70%;
+
+    background: url("../img/img-2.jpeg");
+    /*background-repeat: no-repeat;*/
+    background-color: aquamarine;
+    /* height width */
+    /* cover value fits image to the size of the parent tag, while contain fits image as much as possible without messing up proportions */
+    background-size: cover;
+}
