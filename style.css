@@ -2,7 +2,8 @@ h2:hover {
     color: red;
 }
 
-.subtitle {
+/*Attribute selector: <tag name>[<attribute> = <attr name>]*/
+h2[class=subtitle] {
     color: blue;
 }
 
@@ -65,7 +66,7 @@ h2 + a {
 }
 
 /* General sibling selector */
-/* every button that is after a textarea within the same parent tag */
+/* every button that is after a textarea with the same parent tag */
 textarea ~ button{
     color: purple;
 }
@@ -80,4 +81,22 @@ ul > li {
 /* any li tag that back propagates to a ul tag, even if not a direct child of ul  */
 ul li {
     color: green;
+}
+
+/* ^ means every single img where the src starts with that path value
+   $ would mean every src that ends with that path value
+   * means where the src contains the path value anywhere  
+*/
+img[src*="img/"] {
+    border: 10px solid red;
+}
+
+/* ~ white space attribute selector */
+h2[class~=article-subtitle] {
+    background-color: green;
+}
+
+/* | find every h2 where the class is directly equal to the value or is followed with a dash */
+h2[class|=article-subtitle] {
+    background-color: green;
 }
