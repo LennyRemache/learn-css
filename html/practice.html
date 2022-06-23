@@ -1,4 +1,4 @@
-<!-- Attribute Selectors -->
+<!-- Coloring Text -->
 
 <!DOCTYPE html>
 
@@ -8,24 +8,24 @@
     <meta name="author" content="Lenny Remache" />
     <meta name="description" content="CSS Practice" />
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/main.css" type="text/css" />
   </head>
   <body>
     <main>
-      <h1>My Website</h1>
+      <h1 id="title">My Website</h1>
 
-      <p>
+      <p class="para-text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
 
       <!-- white space attribute selector -->
       <!-- multiple classes just by adding a space -->
-      <h2 class="subtitle article-subtitle">About Me</h2>
+      <h2 class="subtitle">About Me</h2>
 
-      <img src="img/img-1.jpeg" />
+      <img src="../img/img-1.jpeg" />
 
-      <p>
+      <p class="para-text">
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -34,24 +34,16 @@
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Cillum dolore eu fugiat nulla , pariatur:
       </p>
-      <ul>
-        <li>Excepteur sint occaecat</li>
-        <li>cupidatat non proident</li>
-        <li>sunt in culpa.</li>
-      </ul>
 
       <ul>
-        <li>Excepteur sint occaecat</li>
-        <li>
-          <ol>
-            <li>My Numbered List Item</li>
-          </ol>
-        </li>
+        <li class="list-item">Excepteur sint occaecat</li>
+        <ol>
+          <li class="list-item">My Numbered List Item</li>
+        </ol>
       </ul>
 
-      <!-- In-line styling has higher specificity -->
-      <h2 class="subtitle" id="services" style="color: steelblue">Services</h2>
-      <a href="http://google.com" target="_blank" id="google-link">Google</a>
+      <h2 class="subtitle">Services</h2>
+      <a href="http://google.com" target="_blank" class="link">Google</a>
       <table border="1">
         <thead>
           <tr>
@@ -74,13 +66,13 @@
         </tbody>
       </table>
 
-      <img src="img/img-2.jpeg" />
+      <img src="../img/img-2.jpeg" />
 
-      <h2>Contact Us</h2>
+      <h2 class="subtitle">Contact Us</h2>
 
       <form>
-        <input type="text" placeholder="Full Name" />
-        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Full Name" class="form-input" />
+        <input type="email" placeholder="Email" class="form-input" />
         <textarea></textarea>
         <button>Submit</button>
       </form>

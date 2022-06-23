@@ -100,3 +100,10 @@ h2[class~=article-subtitle] {
 h2[class|=article-subtitle] {
     background-color: green;
 }
+/*
+selector {
+    -- A CSS block --
+    property1: value1;
+    property2: value2;
+}
+*/
