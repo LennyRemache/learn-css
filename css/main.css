@@ -36,6 +36,8 @@ body {
     /* height(absolute) width(relative) */
     /* cover value fits image to the size of the parent tag, while contain fits image as much as possible without messing up proportions */
     /*background-size: cover;*/
+    
+    border: 5px double black;
 }
 
 .link {
@@ -46,7 +48,23 @@ body {
 .para-text {
     font-style: italic;
 }
+
 #about-img {
     height: 300px;
     width: 60%;
+    border: 6px solid black;
+    /* padding makes space within the tag */
+    /*padding:40px;*/
+    /* margin makes space around the outside of the tag */
+    margin: 40px;
+    /*
+    padding-left: 25px;
+    padding-top: 100px;
+    padding-right: 5px;
+
+    top,right, bottom, left is the order for padding
+
+    top and bottom, left and right for margin: 80px 40px; 
+    */
+    padding: 100px 5px 0px 25px;
 }
