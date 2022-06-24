@@ -33,7 +33,7 @@ body {
 
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
 
-    /* height width */
+    /* height(absolute) width(relative) */
     /* cover value fits image to the size of the parent tag, while contain fits image as much as possible without messing up proportions */
     /*background-size: cover;*/
 }
@@ -45,4 +45,8 @@ body {
 
 .para-text {
     font-style: italic;
+}
+#about-img {
+    height: 300px;
+    width: 60%;
 }
