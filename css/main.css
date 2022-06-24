@@ -5,13 +5,15 @@ body {
     /* text-transform: uppercase; 
     text-align: justify; */
 
+    text-align: justify;
     font-size: 1.15em;
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
+    font-family: 'Indie Flower', sans-serif;
 }
 
 #title {
     color: rgb(186, 133, 9);
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .subtitle {
