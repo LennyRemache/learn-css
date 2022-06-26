@@ -1,4 +1,4 @@
-<!-- The flex property -->
+<!-- Item Alignment -->
 
 <!DOCTYPE html>
 
@@ -74,11 +74,13 @@
 
       <div class="container">
         <!-- order property to order flex container items-->
-        <div class="container-item" style="order: 4">A</div>
-        <div class="container-item" style="order: 3">B</div>
+        <div class="container-item" style="order: 4; align-self: center">A</div>
+        <div class="container-item" style="order: 3; align-self: flex-end">
+          B
+        </div>
         <div
           class="container-item"
-          style="order: 5; line-height: 100px; flex-grow: 5"
+          style="order: 5; line-height: 100px; align-self: flex-start"
         >
           C
         </div>

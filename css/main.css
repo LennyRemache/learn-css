@@ -88,7 +88,7 @@ body {
     /*flex-wrap: wrap;*/ /* wrap-reverse or nowrap */
 
     justify-content: space-between; /* center and space-around, flex-start, flex-end... this is horizontal allignment */
-    align-items: baseline; /* center, flex-start, flex-end, stretch, baseline ... vertical allignment */
+    align-items: baseline; /* center, flex-start, flex-end, stretch, baseline ... this is vertical allignment */
 }
 
 .container-item {
@@ -107,4 +107,6 @@ body {
 
     /* flex: grow shrink bases; */
     flex: 1 1 100px;
+
+    align-self: center; /* overrides the align items property from the flex container class */
 }
