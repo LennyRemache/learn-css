@@ -38,11 +38,13 @@ body {
     /*background-size: cover;*/
     
     border: 5px double black;
+
 }
 
 .link {
     color: red;
     text-decoration: overline;
+   
 }
 
 .para-text {
@@ -67,4 +69,11 @@ body {
     top and bottom, left and right for margin: 80px 40px; 
     */
     padding: 100px 5px 0px 25px;
+
+    float: right;
+}
+
+.table {
+    /* display: none; */
+    display: inline-block;
 }
