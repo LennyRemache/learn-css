@@ -77,3 +77,29 @@ body {
     /* display: none; */
     display: inline-block;
 }
+
+.container {
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 300px;
+
+    display: flex; /* creates the flex container */
+    flex-direction: row; /* or column, row/column-reverse */
+    flex-wrap: wrap; /* wrap-reverse or nowrap */
+
+    justify-content: space-between; /* center and space-around, flex-start, flex-end... this is horizontal allignment */
+    align-items: baseline; /* center, flex-start, flex-end, stretch, baseline ... vertical allignment */
+}
+
+.container-item {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+
+
+}
