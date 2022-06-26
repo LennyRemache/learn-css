@@ -100,8 +100,11 @@ body {
     width: 70px;
     line-height: 50px;
     margin: 10px;
+    
+    /* flex-grow: 1; */ /* every flex item gets the same amount of extra space, if only one item has flex grow property then that item takes up all the etxra space, default 0 */
+    /* flex-shrink: 1; */ /* rate at which to shrink each item, even when below min width is passed, default 1 */
+    /* flex-basis: 100px; */ /* defines minimum width of a flex item */
 
-    flex-grow: 1; /* every flex item gets the same amount of extra space, if only one item has flex grow property then that item takes up all the etxra space */
-    flex-shrink: 1; /* rate at which to shrink each item, even when below min width is passed */
-    flex-basis: 100px; /* defines minimum width of a flex item */
+    /* flex: grow shrink bases; */
+    flex: 1 1 100px;
 }
