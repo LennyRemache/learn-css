@@ -85,7 +85,7 @@ body {
 
     display: flex; /* creates the flex container */
     flex-direction: row; /* or column, row/column-reverse */
-    flex-wrap: wrap; /* wrap-reverse or nowrap */
+    /*flex-wrap: wrap;*/ /* wrap-reverse or nowrap */
 
     justify-content: space-between; /* center and space-around, flex-start, flex-end... this is horizontal allignment */
     align-items: baseline; /* center, flex-start, flex-end, stretch, baseline ... vertical allignment */
@@ -101,5 +101,7 @@ body {
     line-height: 50px;
     margin: 10px;
 
-
+    flex-grow: 1; /* every flex item gets the same amount of extra space, if only one item has flex grow property then that item takes up all the etxra space */
+    flex-shrink: 1; /* rate at which to shrink each item, even when below min width is passed */
+    flex-basis: 100px; /* defines minimum width of a flex item */
 }
