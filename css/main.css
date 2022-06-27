@@ -10,7 +10,10 @@ body {
     /* font-family: "Arial", sans-serif; */
     font-family: 'Indie Flower', sans-serif;
 }
-
+input, textarea {
+    display: block;
+    margin: 10px;
+}
 #title {
     color: rgb(186, 133, 9);
     /* font-weight: 400; */
@@ -139,4 +142,24 @@ body {
     width: 70px;
     line-height: 40px;
     margin: 10px;
+}
+
+.submit-button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: rgb(89, 150, 255);
+
+    transition: background, padding 400ms ease-in-out;
+    -webkit-transition: background, padding 400ms ease-in-out; /* property, time, transition style, delay */
+    -moz-transition: background, padding 400ms ease-in-out; 
+}
+
+.submit-button:hover {
+    background: rgb(147, 187, 255);
+    padding: 20px 30px;
 }
