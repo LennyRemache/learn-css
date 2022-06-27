@@ -120,8 +120,15 @@ body {
     grid-template-columns: auto auto auto; /* can be px values. each val creates a new column of that size */
     grid-template-rows: auto auto;
 
-    justify-content: space-evenly; /* start, end, center, space-around, space-evenly */
-    align-content: end;
+    /*justify-content: space-evenly; start, end, center, space-around, space-evenly 
+    align-content: end;*/
+
+    /*
+    column-gap: 150px;
+    row-gap: 300px;
+    */
+
+    gap: 300px 150px; /* row then column gap size */
 }
 
 .grid-item {
