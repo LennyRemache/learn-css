@@ -128,7 +128,7 @@ body {
     row-gap: 300px;
     */
 
-    gap: 300px 150px; /* row then column gap size */
+    /* gap: 300px 150px; */ /* row then column gap size */
 }
 
 .grid-item {
