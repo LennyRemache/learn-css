@@ -172,6 +172,19 @@ input, textarea {
     padding: 20px 30px;
 }
 
+#about-me {
+    /*
+    animation-name: change-element;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    */
+    animation: change-element 4s linear 2s infinite alternate;
+    -webkit-animation: change-element 4s linear 2s infinite alternate;
+}
+
 /*
 @keyframes change-element {
     from {
